@@ -1,0 +1,35 @@
+﻿@media only screen and (max-width :768px) {
+    .fixedHeader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+
+    .floadHeader {
+        position: fixed;
+        top: -153px;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width :1080px) {
+    .productList>li {
+        width: 33.33%;
+    }
+}
+
+@media only screen and (min-width : 1080px) and (max-width :1240px) {
+    .productList>li {
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width :1240px) {
+    .productList>li {
+        width: 20%;
+    }
+}
